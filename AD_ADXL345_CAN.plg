@@ -1,0 +1,73 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Documents and Settings\Administrator\×ÀÃæ\²¿±ê\AD_ADXL345_CAN.uvproj
+Project File Date:  10/29/2014
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling STM32F10x.s...
+compiling AD.c...
+SYSTEM\AD\AD.c(2): error:  #5: cannot open source input file "delay.h": No such file or directory
+SYSTEM\AD\AD.c:   #include "delay.h"
+SYSTEM\AD\AD.c:                     ^
+SYSTEM\AD\AD.c: SYSTEM\AD\AD.c: 0 warnings, 1 error
+compiling adxl345.c...
+SYSTEM\ADXL345\adxl345.h(3): error:  #5: cannot open source input file "myiic.h": No such file or directory
+SYSTEM\ADXL345\adxl345.h:   #include "myiic.h"                                                                                                            
+SYSTEM\ADXL345\adxl345.h:                                                                                                                                 ^
+SYSTEM\ADXL345\adxl345.h: SYSTEM\ADXL345\adxl345.c: 0 warnings, 1 error
+compiling CAN.c...
+SYSTEM\can\CAN.c(9): error:  #5: cannot open source input file "delay.h": No such file or directory
+SYSTEM\can\CAN.c:   #include "delay.h"
+SYSTEM\can\CAN.c:                     ^
+SYSTEM\can\CAN.c: SYSTEM\can\CAN.c: 0 warnings, 1 error
+compiling delay.c...
+compiling myiic.c...
+SYSTEM\IIC\myiic.h(3): error:  #5: cannot open source input file "sys.h": No such file or directory
+SYSTEM\IIC\myiic.h:   #include "sys.h"
+SYSTEM\IIC\myiic.h:                   ^
+SYSTEM\IIC\myiic.h: SYSTEM\IIC\myiic.c: 0 warnings, 1 error
+compiling clock_init.c...
+compiling usart.c...
+compiling main.c...
+Target not created
+compiling clock_init.c...
+SYSTEM\sys\clock_init.h(4): warning:  #1-D: last line of file ends without a newline
+SYSTEM\sys\clock_init.h:   void clock_init();
+SYSTEM\sys\clock_init.h:                     ^
+SYSTEM\sys\clock_init.h(4): warning:  #1295-D: Deprecated declaration clock_init - give arg types
+SYSTEM\sys\clock_init.h:   void clock_init();
+SYSTEM\sys\clock_init.h:        ^
+SYSTEM\sys\clock_init.h(1): error:  #37: the #endif for this directive is missing
+SYSTEM\sys\clock_init.h:   #ifndef __CLOCK_INIT_H
+SYSTEM\sys\clock_init.h:    ^
+SYSTEM\sys\clock_init.h: SYSTEM\sys\clock_init.c: 2 warnings, 1 error
+SYSTEM\sys\clock_init.c - 1 Error(s), 2 Warning(s).
+compiling clock_init.c...
+SYSTEM\sys\clock_init.h(4): warning:  #1295-D: Deprecated declaration clock_init - give arg types
+SYSTEM\sys\clock_init.h:   void clock_init();
+SYSTEM\sys\clock_init.h:        ^
+SYSTEM\sys\clock_init.h(6): warning:  #1-D: last line of file ends without a newline
+SYSTEM\sys\clock_init.h:   #endif
+SYSTEM\sys\clock_init.h:         ^
+SYSTEM\sys\clock_init.h: SYSTEM\sys\clock_init.c: 2 warnings, 0 errors
+SYSTEM\sys\clock_init.c - 0 Error(s), 2 Warning(s).
+compiling clock_init.c...
+SYSTEM\sys\clock_init.c - 0 Error(s), 0 Warning(s).
+compiling AD.c...
+SYSTEM\AD\AD.c(2): error:  #5: cannot open source input file "delay.h": No such file or directory
+SYSTEM\AD\AD.c:   #include "delay.h"
+SYSTEM\AD\AD.c:                     ^
+SYSTEM\AD\AD.c: SYSTEM\AD\AD.c: 0 warnings, 1 error
+SYSTEM\AD\AD.c - 1 Error(s), 0 Warning(s).
+compiling AD.c...
+SYSTEM\AD\AD.c(64): warning:  #223-D: function "delay_ms" declared implicitly
+SYSTEM\AD\AD.c:                 delay_ms(5);
+SYSTEM\AD\AD.c:                 ^
+SYSTEM\AD\AD.c: SYSTEM\AD\AD.c: 1 warning, 0 errors
+SYSTEM\AD\AD.c - 0 Error(s), 1 Warning(s).
+compiling AD.c...
+SYSTEM\AD\AD.c - 0 Error(s), 0 Warning(s).

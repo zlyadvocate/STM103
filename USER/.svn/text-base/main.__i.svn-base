@@ -1,0 +1,1 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\SYSTEM\delay -I.\SYSTEM\IIC -I.\SYSTEM\sys -I.\SYSTEM\usart -I.\SYSTEM\ADXL345 -I.\SYSTEM\AD -I.\SYSTEM\can -I.\SYSTEM\IAP -I "C:\Keil\ARM\INC" -I "C:\Keil\ARM\INC\ST\STM32F10x" -DUSE_STDPERIPH_DRIVER -o ".\USER\main.o" --omf_browse ".\USER\main.crf" --depend ".\USER\main.d" "USER\main.c"

@@ -1,0 +1,14 @@
+.\USER\can.o: SYSTEM\can\CAN.c
+.\USER\can.o: .\SYSTEM\sys\stm32f10x_map.h
+.\USER\can.o: .\SYSTEM\sys\stm32f10x_conf.h
+.\USER\can.o: .\SYSTEM\sys\stm32f10x_type.h
+.\USER\can.o: .\SYSTEM\sys\cortexm3_macro.h
+.\USER\can.o: C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_can.h
+.\USER\can.o: C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_map.h
+.\USER\can.o: C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_gpio.h
+.\USER\can.o: C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x_rcc.h
+.\USER\can.o: .\SYSTEM\sys\stm32f10x_nvic.h
+.\USER\can.o: C:\Keil\ARM\RV31\INC\stdio.h
+.\USER\can.o: .\SYSTEM\delay\delay.h
+.\USER\can.o: .\SYSTEM\usart\usart.h
+.\USER\can.o: SYSTEM\can\CAN.h

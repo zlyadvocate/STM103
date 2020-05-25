@@ -1,0 +1,44 @@
+*** Creating Trace Output File '.\USER\AD_ADXL345_CAN.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\user\cortexm3_macro.o"'
+### List of Objects: adding '".\user\startup_stm32f10x_hd.o"'
+### List of Objects: adding '"C:\Keil\ARM\RV31\LIB\ST\STM32F10xR.LIB"'
+### List of Objects: adding '".\user\ad.o"'
+### List of Objects: adding '".\user\adxl345.o"'
+### List of Objects: adding '".\user\can.o"'
+### List of Objects: adding '".\user\clock_init.o"'
+### List of Objects: adding '".\user\usart.o"'
+### List of Objects: adding '".\user\delay.o"'
+### List of Objects: adding '".\user\myiic.o"'
+### List of Objects: adding '".\user\sys.o"'
+### List of Objects: adding '".\user\stm32f10x_adc.o"'
+### List of Objects: adding '".\user\stm32f10x_can.o"'
+### List of Objects: adding '".\user\stm32f10x_flash.o"'
+### List of Objects: adding '".\user\stm32f10x_gpio.o"'
+### List of Objects: adding '".\user\stm32f10x_nvic.o"'
+### List of Objects: adding '".\user\stm32f10x_pwr.o"'
+### List of Objects: adding '".\user\stm32f10x_systick.o"'
+### List of Objects: adding '".\user\stm32f10x_tim.o"'
+### List of Objects: adding '".\user\stm32f10x_usart.o"'
+### List of Objects: adding '".\user\stm32f10x_exti.o"'
+### List of Objects: adding '".\user\main.o"'
+### List of Objects: adding '".\user\crc32.o"'
+### List of Objects: adding '".\user\flash.o"'
+### List of Objects: adding '".\user\iap.o"'
+### List of Objects: adding '".\user\timer.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 ".\user\cortexm3_macro.o" ".\user\startup_stm32f10x_hd.o" "C:\Keil\ARM\RV31\LIB\ST\STM32F10xR.LIB" ".\user\ad.o" ".\user\adxl345.o" ".\user\can.o" ".\user\clock_init.o" ".\user\usart.o" ".\user\delay.o" ".\user\myiic.o" ".\user\sys.o" ".\user\stm32f10x_adc.o" ".\user\stm32f10x_can.o" ".\user\stm32f10x_flash.o" ".\user\stm32f10x_gpio.o" ".\user\stm32f10x_nvic.o" ".\user\stm32f10x_pwr.o" ".\user\stm32f10x_systick.o" ".\user\stm32f10x_tim.o" ".\user\stm32f10x_usart.o" ".\user\stm32f10x_exti.o" ".\user\main.o" ".\user\crc32.o" ".\user\flash.o" ".\user\iap.o" ".\user\timer.o" --strict --scatter ".\USER\AD_ADXL345_CAN.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\USER\AD_ADXL345_CAN.map" -o ".\USER\AD_ADXL345_CAN.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\USER\AD_ADXL345_CAN.axf'
+### ADS-LD Command File: '.\USER\AD_ADXL345_CAN.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\USER\AD_ADXL345_CAN.lnp', Handle=0x000002C4
+### Writing '.lnp' file
+### ADS-LD Command file '.\USER\AD_ADXL345_CAN.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
